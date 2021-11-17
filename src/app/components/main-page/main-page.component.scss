@@ -1,0 +1,46 @@
+@import "../../../main-styles.scss";
+.top-bar {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  background: linear-gradient(75deg, rgb(214, 180, 247), rgb(173, 203, 231));
+
+  h1 {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 5rem;
+  }
+}
+.total-budget-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12rem;
+  background-color: rgb(102, 59, 113);
+  color: white;
+
+  h2 {
+    font-size: 3.5rem;
+    &.green {
+      color: greenyellow;
+    }
+    &.red {
+      color: rgb(243, 40, 40);
+    }
+  }
+}
+
+.add-item-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .add-item-container {
+    width: 60%;
+  }
+}
